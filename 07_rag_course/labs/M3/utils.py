@@ -14,6 +14,7 @@ from together import Together
 import threading
 from sentence_transformers import SentenceTransformer
 from flask import Flask, request, jsonify
+from contextlib import contextmanager
 
 # Custom transport to bypass SSL verification
 transport = httpx.HTTPTransport(local_address="0.0.0.0", verify=False)
@@ -249,8 +250,6 @@ def print_properties(item):
     )
 
 
-
-from contextlib import contextmanager
 
 @contextmanager
 def suppress_subprocess_output():
