@@ -30,11 +30,13 @@ This repo is my playground and knowledge base for building modern agentic AI app
 #### Core Concepts
 - Agent = LLM + Tools + Memory + (optional) Planner
 - Agent types: single-agent, multi-agent
+- Execution modes: synchronous (step-by-step), asynchronous (parallel tasks)
 - Tool types: API calls, LLM calls, code execution, search, retrieval
-- Memory types: short-term, long-term, shared
-- Planners: LLM-based, code-based
-- Agent architectures: monolithic, modular, hierarchical, collaborative
+- Memory types: short-term, long-term
+- Guardrails: defense mechanisms to limit bad actions, enforce rules, and keep the agent safe and reliable
+- Feedback loops: self-critique, reflection, and refinement steps
 - Agentic workflows: thought-action-observation loops
+- Orchestration layer: the controller coordinating multiple agents, tools, and memory
 
 #### Design Patterns
 - Reflection (e.g., coder agent-critic agent) 
@@ -72,7 +74,7 @@ This repo is my playground and knowledge base for building modern agentic AI app
 
 ### Prompt Engineering for LLMs
 #### Core Principles
-- **Clear & specific instructions**: delimiters, structured output, condition checks, few-shot prompting
+- **Clear & specific instructions**: delimiters, define clear tasks, capture edge cases, structured output, condition checks, few-shot prompting
 - **Give the model time to think**: specify steps, ask for step-by-step reasoning, private reasoning before answer (ask to work on its own solution before rushing to a conclusion), allow hidden internal steps that guide thinking without showing them in the final answer (“Think through the solution step by step internally, but only give me the final answer.”
 )
 
@@ -100,7 +102,7 @@ This repo is my playground and knowledge base for building modern agentic AI app
 - Supervised Learning: 6+ months (data + training + deployment)
 
 #### Prompt Chaining
-- Break tasks  
+- Break down tasks  
 - Manage context and reduce cost  
 - Human-in-loop  
 - State tracking  
