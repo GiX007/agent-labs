@@ -313,7 +313,7 @@ All components are combined into **Chains** defining thought-action-observation 
 - LangChain: https://python.langchain.com  
 - LangGraph: https://langchain-ai.github.io/langgraph  
 - CrewAI: https://docs.crewai.com  
-- Autogen: https://microsoft.github.io/autogen  
+- AutoGen: https://microsoft.github.io/autogen  
 - Chroma: https://docs.trychroma.com  
 - Weaviate: https://weaviate.io/developers/weaviate   
 - Together.ai: https://together.ai
