@@ -33,6 +33,8 @@ This repo is my playground and knowledge base for building modern agentic AI app
 - Agent types: single-agent, multi-agent
 - Execution modes: synchronous (step-by-step), asynchronous (parallel tasks)
 - Tool types: API calls, LLM calls, code execution, search, retrieval
+  - GET requests: retrieve information (e.g., weather, prices, loading external content)
+  - POST requests: send or create data (e.g., posting tweets, uploading photos, sending emails)
 - Memory types: short-term, long-term
 - Guardrails: defense mechanisms to limit bad actions, enforce rules, and keep the agent safe and reliable
 - Feedback loops: self-critique, reflection, and refinement steps
