@@ -28,7 +28,8 @@ This repo is my playground and knowledge base for building modern agentic AI app
 
 ### Agentic AI Course
 #### Core Concepts
-- Agent = LLM + Tools + Memory + (optional) Planner
+- Agent: LLM + Tools + Memory + (optional) Planner
+- Agentic AI: orchestrated workflows of one or multiple agents that plan, reflect, and act autonomously toward high-level goals
 - Agent types: single-agent, multi-agent
 - Execution modes: synchronous (step-by-step), asynchronous (parallel tasks)
 - Tool types: API calls, LLM calls, code execution, search, retrieval
@@ -325,6 +326,6 @@ All components are combined into **Chains** defining thought-action-observation 
 
 ---
 
-## Vision
+## What’s Next & Vision
 
-This repository will continue to grow into a modular library of agentic patterns, a practical starting point for building production-ready LLM systems, autonomous workflows, and multi-agent solutions.
+This repository serves as a practical foundation for learning the principles of agentic workflows. In the upcoming **agentic-apps** repo, I will demonstrate real-world prototypes, including production-ready LLM systems, autonomous workflows, and multi-agent solutions, bringing these concepts into actionable applications.
