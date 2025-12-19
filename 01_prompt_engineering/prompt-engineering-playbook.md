@@ -408,6 +408,11 @@ Adds depth where needed.
 4. Paste into ChatGPT
 5. Iterate with refinement prompts
 
+**Note**  
+All the above principles and use cases can be combined to create highly effective prompts that produce strong, reliable outputs.  
+Practical examples of such combinations are demonstrated in the notebooks included in this repository.
+
+
 ---
 
 ## Sources
