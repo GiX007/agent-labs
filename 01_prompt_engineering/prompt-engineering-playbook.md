@@ -1,6 +1,3 @@
-
----
-
 ## 🧩 HOW TO USE THIS PLAYBOOK
 
 1. Choose a **principle**
@@ -9,7 +6,7 @@
 4. Paste into ChatGPT
 5. Iterate with refinement prompts
 
-Built for **agentic systems, RAG pipelines, and production-grade LLM usage**.
+**Built to design the right prompt for any use case**.
 
 ---
 
