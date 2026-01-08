@@ -333,4 +333,3 @@ All components are combined into **Chains** defining thought-action-observation 
 This repository serves as a practical foundation for learning the principles of agentic workflows. In the upcoming **agentic-apps** repo, I will demonstrate real-world prototypes, including production-ready LLM systems, autonomous workflows, and multi-agent solutions, bringing these concepts into actionable applications.
 
 ---
-
