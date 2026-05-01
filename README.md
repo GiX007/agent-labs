@@ -14,7 +14,7 @@ This repository serves as a practical foundation for for understanding all the b
 - **04_langGraph:** Graph-based agentic workflow design with nodes, edges, and stateful reasoning.  
 - **05_crewAI:** Multi-agent collaboration using CrewAI (roles, tasks, tools, and handoffs).  
 - **06_autoGen:** Multi-agent collaboration using AutoGen. 
-- **07_rag_course:** Retrieval-Augmented Generation concepts— such as embeddings, retrieval functions, chunking, vector databases, and evaluation.
+- **07_rag_course:** Retrieval-Augmented Generation concepts such as embeddings, retrieval functions, chunking, vector databases, and evaluation.
 
 ---
 
