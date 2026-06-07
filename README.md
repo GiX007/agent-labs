@@ -15,6 +15,7 @@ This repository serves as a practical foundation for for understanding all the b
 - **05_crewAI:** Multi-agent collaboration using CrewAI (roles, tasks, tools, and handoffs).  
 - **06_autoGen:** Multi-agent collaboration using AutoGen. 
 - **07_rag_course:** Retrieval-Augmented Generation concepts such as embeddings, retrieval functions, chunking, vector databases, and evaluation.
+- **08_dspy:** Programmatic LLM pipelines using DSPy's signatures, modules, ReAct agents, and automatic prompt optimization.
 
 ---
 
@@ -305,7 +306,7 @@ All components are combined into **Chains** defining thought-action-observation 
 
 ### Tools & Platforms
 - Tavily search tool 
-- frameworks: LangChain, LangGraph, CrewAI, Autogen
+- frameworks: LangChain, LangGraph, CrewAI, Autogen, DSPy
 - Together.ai  
 - Weaviate  
 - Chroma  
@@ -325,6 +326,7 @@ All components are combined into **Chains** defining thought-action-observation 
 - Phoenix: https://phoenixmonitoring.ai
 - OpenAI: https://platform.openai.com/docs/models
 - Tavily: https://tavily.com
+- DSPy: https://dspy.ai/
 
 ---
 
