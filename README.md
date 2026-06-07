@@ -304,6 +304,33 @@ All components are combined into **Chains** defining thought-action-observation 
 
 ---
 
+### DSPy — Programmatic LLM Pipelines
+#### Core Concepts
+- DSPy: a framework for programming (not prompting) LLMs where one can define input/output contracts and DSPy generates and optimizes prompts automatically
+- Signature: declarative class defining what the LLM should do (inputs, outputs, types, constraints) that replaces hand-written prompts
+- Module: reusable building block that connects a Signature to the LLM (e.g., Predict, ChainOfThought, ReAct)
+- Adapter: controls how DSPy formats the prompt for the LLM (e.g., default text, JSONAdapter for structured output)
+- Optimizer: automatically improves prompts using training examples and evaluation metrics (e.g., MIPROv2)
+- Framework-agnostic: not tied to LangChain, CrewAI, or AutoGen as it's a separate paradigm that can complement them
+
+#### Why DSPy?
+- No manual prompt engineering: define the signature, DSPy writes the prompt
+- Automatic optimization: give it examples + a metric, it finds better prompts
+- Modular and composable: build complex pipelines from simple signatures
+- Reproducible: programs can be saved, loaded, and versioned
+
+#### Examples
+- Sentiment classifier (Signature + Predict + ChainOfThought)
+- Celebrity guessing game (custom Module with multi-turn interaction and reflection)
+- Airline customer service agent (ReAct with tools: flight search, booking, cancellation, ticket filing)
+- RAG agent with Wikipedia search (ReAct + MIPROv2 optimizer + evaluation)
+
+#### Tools & Tracing
+- MLflow: autolog traces for debugging ReAct agent steps (thoughts, tools, observations)
+- ColBERTv2: retrieval tool for Wikipedia search in RAG pipeline
+
+---
+
 ### Tools & Platforms
 - Tavily search tool 
 - frameworks: LangChain, LangGraph, CrewAI, Autogen, DSPy
