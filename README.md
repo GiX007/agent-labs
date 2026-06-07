@@ -327,6 +327,7 @@ All components are combined into **Chains** defining thought-action-observation 
 - OpenAI: https://platform.openai.com/docs/models
 - Tavily: https://tavily.com
 - DSPy: https://dspy.ai/
+- Databricks: https://www.databricks.com/
 
 ---
 
